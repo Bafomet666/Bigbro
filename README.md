@@ -20,7 +20,7 @@ chmod 777 install.sh
 sudo python3 bigbro.py -t manual -k start
 
 
-Обязательно вступи в паблик: Здесь больше инструментов https://t.me/hacknocrime
+Обязательно вступи в паблик https://t.me/hacknocrime
 
 ### Termux
 
