@@ -32,7 +32,7 @@ chmod 777 termux_install.sh
 
 
 
-Запустить ngrok не забудь
+Запустить ngrok не забудь. Сам big bro ngrok не запускает.
 
 sudo ngrok http 8080
 
