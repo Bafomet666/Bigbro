@@ -3,7 +3,7 @@
 
 Это пробник, бесплатная версия 1.2 beta. Отдавал 8 тестерам, вердикт 7/10. Как есть. Это версия из под тестеров. Еще буду дорабатывать.
 
-![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/screenshots.jpeg)​
+![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/01.png)​
 
 # Установка
 
