@@ -1,6 +1,8 @@
 # Bigbro
 
-Много функциональный инструмент для OSINT. Поиска людей перешедших по ссылке /радиус разброса 1-30 метров.
+Много функциональный инструмент OSINT. Поиск людей перешедших по ссылке /радиус разброса 1-30 метров.
+
+Это пробник, бесплатная версия 1.2
 
 ![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/screenshots.jpeg)​
 
@@ -39,3 +41,5 @@ sudo ngrok http 8080
 
 sudo python3 bigbro.py -t manual -k start
 sudo python3 bigbro.py
+
+Если нашли косяки, или баги, напишите мне https://t.me/satana666mx я справлю. Может где то что то упустил.
