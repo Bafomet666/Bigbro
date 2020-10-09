@@ -2,6 +2,7 @@
 
 Много функциональный инструмент для OSINT. Поиска людей перешедших по ссылке /радиус разброса 1-30 метров.
 
+![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/screenshots.jpeg)​
 
 # Установка
 
