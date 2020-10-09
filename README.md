@@ -34,3 +34,8 @@ chmod 777 termux_install.sh
 Запустить ngrok не забудь
 
 sudo ngrok http 8080
+
+# Запуск
+
+sudo python3 bigbro.py -t manual -k start
+sudo python3 bigbro.py
