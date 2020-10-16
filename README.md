@@ -18,7 +18,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
   Далее вам нужно распоковать нужную версию.
 
-  cd /Bigbro 2.5
+  cd /Bigbro 3.0
 
   chmod 777 install.sh
 
@@ -35,7 +35,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
   Далее вам нужно распоковать нужную версию.
 
-  cd /Bigbro 2.5
+  cd /Bigbro 3.0
 
   chmod 777 termux_install.sh
 
