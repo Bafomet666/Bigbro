@@ -11,10 +11,15 @@
 ## Kali Linux * Parrot OS
 
 git clone https://github.com/Bafomet666/Bigbro
+
 Далее вам нужно распоковать нужную версию.
+
 cd /Bigbro 2.5
+
 chmod 777 install.sh
+
 ./install.sh
+
 sudo python3 bigbro.py -t manual -k start
 
 
