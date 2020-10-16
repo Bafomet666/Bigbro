@@ -52,8 +52,8 @@ python bigbro.py -t manual -k start
 
 # Запуск
 
-  sudo python3 bigbro.py -t manual -k start
+  Kali linux/ Parrot os: sudo python3 bigbro.py -t manual -k start
 
-  sudo python3 bigbro.py
+  Termux: python bigbro.py -t manual -k start
 
 Это мой первый продукт в виде эксплойта, для хакеров и социальных инженеров. Честно я доволен проделанной работой, я узнал много нового для себя в разработке, такого типа эксплойтов. Если ты хочешь повлиять на создание нового эксплойта, или закинуть мне идей по поводу новых эксплойтов. Напиши мне в Telegram https://t.me/satana666mx.
