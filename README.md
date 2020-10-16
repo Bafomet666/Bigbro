@@ -52,7 +52,7 @@ python bigbro.py -t manual -k start.kml
 
 # Запуск
 
-  Kali linux/ Parrot os: sudo python3 bigbro.py -t manual -k start.kml
+  Kali linux / Parrot os: sudo python3 bigbro.py -t manual -k start.kml
 
   Termux: python bigbro.py -t manual -k start.kml
 
