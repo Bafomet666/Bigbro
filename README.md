@@ -24,7 +24,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
   ./install.sh
 
-  sudo python3 bigbro.py -t manual -k start
+  sudo python3 bigbro.py -t manual -k start.kml
 
 
 Обязательно вступи в паблик https://t.me/hacknocrime
@@ -41,7 +41,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
  ./install.sh
 
-python bigbro.py -t manual -k start
+python bigbro.py -t manual -k start.kml
 
 # Зависимости
 
@@ -52,8 +52,8 @@ python bigbro.py -t manual -k start
 
 # Запуск
 
-  Kali linux/ Parrot os: sudo python3 bigbro.py -t manual -k start
+  Kali linux/ Parrot os: sudo python3 bigbro.py -t manual -k start.kml
 
-  Termux: python bigbro.py -t manual -k start
+  Termux: python bigbro.py -t manual -k start.kml
 
 Это мой первый продукт в виде эксплойта, для хакеров и социальных инженеров. Честно я доволен проделанной работой, я узнал много нового для себя в разработке, такого типа эксплойтов. Если ты хочешь повлиять на создание нового эксплойта, или закинуть мне идей по поводу новых эксплойтов. Напиши мне в Telegram https://t.me/satana666mx.
