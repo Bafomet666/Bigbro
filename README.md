@@ -1,4 +1,4 @@
-# Big Bro 2.0
+# Big Bro 3.0
 
 ![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/photo_2020-10-16_14-36-16.jpg)​
 
@@ -27,7 +27,7 @@ sudo python3 bigbro.py -t manual -k start
 
 Обязательно вступи в паблик https://t.me/hacknocrime
 
-### Termux.
+## Termux.
 
 git clone https://github.com/Bafomet666/Bigbro
 
