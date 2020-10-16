@@ -6,7 +6,7 @@
 
 # Это инструмент OSINT, для поиска людей перешедших по ссылке, радиус разброса местоположения 1-30 метров.
 
-![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/Screenshot%20at%202020-10-11%2010-46-26.png)​
+![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/66.png)​
 
 # Установка
 
