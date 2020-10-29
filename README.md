@@ -1,13 +1,15 @@
-# Big Bro 3.0                      Ожидайте новую версию 5.0 через неделю. Будут 2 версии: первая бесплатная, вторая платная, з платной писать в Telegram https://t.me/satana666mx.
+# Big Bro 5.0
+
+Инструмент идет в двух версиях: 5.0 Free and 5.0 Premium
 
 ![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/photo_2020-10-16_14-36-16.jpg)​
 
-  ### Сейчас это финальная версия продукта, но вам нужно знать основы применения социальной инженерии либо психологии. Вам нужно сделать так, что бы жертва сама перешла по ссылке и нажала кнопку [везде разная кнопка]
+  ### Сейчас это НЕ финальная версия продукта, но вам нужно знать основы применения социальной инженерии либо психологии. Вам нужно сделать так, что бы жертва сама перешла по ссылке и нажала кнопку [везде разная кнопка]
+  
 
+# Это OSINT инструмент, для поиска людей перешедших по ссылке, радиус разброса местоположения 1-10 метров, зависит от расположение человека.
 
-# Это инструмент OSINT, для поиска людей перешедших по ссылке, радиус разброса местоположения 1-30 метров.
-
-![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/66.png)​
+![alt tag](https://github.com/Bafomet666/screen/blob/main/Free.png)​
 
 # Установка
 
@@ -53,25 +55,30 @@ python bigbro.py -t manual -k start.kml
 
 # Запуск
 
-  Kali linux / Parrot os: sudo python3 bigbro.py -t manual -k start.kml
+  Kali linux / Parrot os:   sudo python3 bigbro.py -t manual -k start.kml
 
-  Termux: python bigbro.py -t manual -k start.kml
+  Termux:                   python bigbro.py -t manual -k start.kml
 
 Это мой первый продукт в виде эксплойта, для хакеров и социальных инженеров. Честно я доволен проделанной работой, я узнал много нового для себя в разработке, такого типа эксплойтов. Если ты хочешь повлиять на создание нового эксплойта, или закинуть мне идей по поводу новых эксплойтов. Напиши мне в Telegram https://t.me/satana666mx.
 
 
 Бесплатная версия 5.0:
 
-![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/free.png)​
+![alt tag](https://github.com/Bafomet666/screen/blob/main/Free.png)​
 
 
 Премиум версия 5.0:
 
-![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/Prem%202.png)​
+![alt tag](https://github.com/Bafomet666/screen/blob/main/Prem%201.png)​
 
-![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/Premium.png)​
+![alt tag](https://github.com/Bafomet666/screen/blob/main/Prem%20.png)​
 
-Друзья спасибо за донаты, собрали 6к для выпуска версии 5.0, премиум версию раздам кто задонатил. Если хотите задонатить
 
-Номер карты куда вы можете выразить свою благодарность: 4890 4946 9972 1288 QIWI.
-Bitcoin: 1E7ZVVbAjMuv5bVsAp9TkQwwjVmautXyyr
+За премиум версией писать в личку https://t.me/satana666mx
+
+
+Удачного деанона друзья...
+
+
+
+
