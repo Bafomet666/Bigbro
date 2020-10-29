@@ -1,4 +1,4 @@
-# Big Bro 3.0
+# Big Bro 3.0                      Ожидайте новую версию 5.0 через неделю. Будут 2 версии: первая бесплатная, вторая платная, з платной писать в Telegram https://t.me/satana666mx.
 
 ![alt tag](https://github.com/Bafomet666/Bigbro/blob/main/photo_2020-10-16_14-36-16.jpg)​
 
