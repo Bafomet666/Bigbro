@@ -82,3 +82,8 @@ python bigbro.py -t manual -k start.kml
 Все версии горячие из под тестеров, в тестировании участвовали 16 человек, всем спасибо)
 
 
+
+
+![alt tag](https://github.com/Bafomet666/screen/blob/main/photo_2020-11-04_15-38-57.jpg)​
+
+
