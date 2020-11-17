@@ -1,6 +1,6 @@
-# Big Bro 5.0
+# Big Bro 5.0 and 6.5 
 
-Инструмент идет в двух версиях: 5.0 Free and 5.0 Premium
+Инструмент идет в двух версиях: 5.0 Free and 6.5 Premium
 
 ![alt tag](https://github.com/Bafomet666/screen/blob/main/photo_2020-10-16_14-36-16.jpg)​
 
