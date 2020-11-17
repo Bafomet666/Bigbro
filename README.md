@@ -62,28 +62,18 @@ python bigbro.py -t manual -k start.kml
 Это мой первый продукт в виде эксплойта, для хакеров и социальных инженеров. Честно я доволен проделанной работой, я узнал много нового для себя в разработке, такого типа эксплойтов. Если ты хочешь повлиять на создание нового эксплойта, или закинуть мне идей по поводу новых эксплойтов. Напиши мне в Telegram https://t.me/satana666mx.
 
 
-Бесплатная версия 5.0:
+Премиум версия 6.5:
 
-![alt tag](https://github.com/Bafomet666/screen/blob/main/Free.png)​
+Общее число сайто 40. 
 
-
-Премиум версия 5.0:
-
-![alt tag](https://github.com/Bafomet666/screen/blob/main/Prem%201.png)​
-
-![alt tag](https://github.com/Bafomet666/screen/blob/main/Prem%20.png)​
-
+![alt tag](https://github.com/Bafomet666/screen/blob/main/Big%20pro.png)​
 
 За премиум версией писать в личку https://t.me/satana666mx
 
 
 Удачного деанона друзья...
 
+
 Все версии горячие из под тестеров, в тестировании участвовали 16 человек, всем спасибо)
-
-
-
-
-![alt tag](https://github.com/Bafomet666/screen/blob/main/photo_2020-11-04_15-38-57.jpg)​
 
 
