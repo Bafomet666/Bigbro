@@ -66,7 +66,7 @@ python bigbro.py -t manual -k start.kml
 
 Общее число сайто 40. За подробной информацией писать Telegram https://t.me/satana666mx.
 
-![alt tag](https://github.com/Bafomet666/screen/blob/main/Big%20pro.png)​
+![alt tag](https://github.com/Bafomet666/screen/blob/main/6.5.png)​
 
 За премиум версией писать в личку https://t.me/satana666mx
 
