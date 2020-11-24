@@ -6,7 +6,7 @@
 
 Премиум версия 6.5:
 
-Общее число сайтов 40. За подробной информацией писать Telegram https://t.me/satana666mx.
+Общее число сайтов 30. За подробной информацией писать Telegram https://t.me/satana666mx.
 
 ![alt tag](https://github.com/Bafomet666/screen/blob/main/photo_2020-10-16_14-36-16.jpg)​
 
