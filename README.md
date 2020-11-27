@@ -1,15 +1,11 @@
 # Big Bro 6.5 
+# Это OSINT инструмент, для поиска людей перешедших по ссылке, радиус разброса местоположения 1-10 метров, зависит от расположение человека.
+
+![alt tag](https://github.com/Bafomet666/screen/blob/main/6.5.png)​
 
 Сделано для https://t.me/hacknocrime
 
 Общее число сайтов 30. За подробной информацией писать Telegram https://t.me/satana666mx.
-
-![alt tag](https://github.com/Bafomet666/screen/blob/main/6.5.png)​
-
- 
-# Это OSINT инструмент, для поиска людей перешедших по ссылке, радиус разброса местоположения 1-10 метров, зависит от расположение человека.
-
-![alt tag](https://github.com/Bafomet666/screen/blob/main/Free.png)​
 
 # Установка
 
