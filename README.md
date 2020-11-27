@@ -1,14 +1,10 @@
-# Big Bro 5.0 and 6.5 
-
-Инструмент идет в двух версиях: 5.0 Free and 6.5 Premium
+# Big Bro 6.5 
 
 Сделано для https://t.me/hacknocrime
 
-Премиум версия 6.5:
-
 Общее число сайтов 30. За подробной информацией писать Telegram https://t.me/satana666mx.
 
-![alt tag](https://github.com/Bafomet666/screen/blob/main/photo_2020-10-16_14-36-16.jpg)​
+![alt tag](https://github.com/Bafomet666/screen/blob/main/6.5.png)​
 
  
 # Это OSINT инструмент, для поиска людей перешедших по ссылке, радиус разброса местоположения 1-10 метров, зависит от расположение человека.
@@ -64,16 +60,6 @@ python bigbro.py -t manual -k start.kml
   Termux:                   python bigbro.py -t manual -k start.kml
 
 Это мой первый продукт в виде эксплойта, для хакеров и социальных инженеров. Честно я доволен проделанной работой, я узнал много нового для себя в разработке, такого типа эксплойтов. Если ты хочешь повлиять на создание нового эксплойта, или закинуть мне идей по поводу новых эксплойтов. Напиши мне в Telegram https://t.me/satana666mx.
-
-
-Премиум версия 6.5:
-
-Общее число сайтов 40. За подробной информацией писать Telegram https://t.me/satana666mx.
-
-![alt tag](https://github.com/Bafomet666/screen/blob/main/6.5.png)​
-
-За премиум версией писать в личку https://t.me/satana666mx
-
 
 Удачного деанона друзья...
 
