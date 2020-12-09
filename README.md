@@ -38,7 +38,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
  ./install.sh
 
-python bigbro.py -t manual -k start.kml
+python3 bigbro.py -t manual -k start.kml
 
 Специально для termux, если вы не можете установить ngrok нормально, вот вам быстрая установка без заморочек. https://github.com/Bafomet666/Fast-ngrok
 
@@ -53,6 +53,6 @@ python bigbro.py -t manual -k start.kml
 
   Kali linux / Parrot os:   sudo python3 bigbro.py -t manual -k start.kml
 
-  Termux:                   python bigbro.py -t manual -k start.kml
+  Termux:                   python3 bigbro.py -t manual -k start.kml
 
 Удачного деанона друзья...
