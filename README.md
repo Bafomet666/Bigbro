@@ -23,8 +23,6 @@ git clone https://github.com/Bafomet666/Bigbro
   
   ngrok запусти еще в соседнем окне
 
-Обязательно вступи в паблик https://t.me/hacknocrime
-
 ## Termux.
 
 git clone https://github.com/Bafomet666/Bigbro
