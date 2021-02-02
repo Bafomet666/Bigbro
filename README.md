@@ -7,8 +7,6 @@
 
 Сделано для https://t.me/hacknocrime
 
-Общее число сайтов 20. В премиум версии 40, за подробной информацией писать Telegram https://t.me/satana666mx.
-
 # Установка
 
 ## Kali Linux * Parrot OS
