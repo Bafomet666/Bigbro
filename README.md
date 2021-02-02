@@ -43,11 +43,4 @@ python3 bigbro.py -t manual -k start.kml
 
   Далее запустите ngrok в сторонем окне командой sudo ngrok http 8080
 
-
-# Запуск
-
-  Kali linux / Parrot os:   sudo python3 bigbro.py -t manual -k start.kml
-
-  Termux:                   python3 bigbro.py -t manual -k start.kml
-
 Удачного деанона друзья...
