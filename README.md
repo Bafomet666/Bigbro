@@ -43,8 +43,8 @@ python3 bigbro.py -t manual -k start.kml
 
 ![alt tag](https://camo.githubusercontent.com/26043b6db7e2aee509448570c835702e9cd39397b53b18ac86b2b11090d08c26/68747470733a2f2f63646e2e737667706f726e2e636f6d2f6c6f676f732f707974686f6e2e737667)
 
-Скачайте и установите ngrok [ https://ngrok.com/download ]
+Скачайте и установите ngrok https://ngrok.com/download
 
-  Далее запустите ngrok в сторонем окне командой sudo ngrok http 8080
+  Далее запустите ngrok в сторонем окне командой sudo ./ngrok http 8080
 
 Удачного деанона друзья...
