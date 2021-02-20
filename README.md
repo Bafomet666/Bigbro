@@ -7,6 +7,8 @@
 
 Сделано для https://t.me/hacknocrime
 
+---
+
 # Установка
 
 ## Kali Linux * Parrot OS
@@ -37,6 +39,8 @@ python3 bigbro.py -t manual -k start.kml
 
 Специально для termux, если вы не можете установить ngrok нормально, вот вам быстрая установка без заморочек. https://github.com/Bafomet666/Fast-ngrok
 
+---
+
 # Зависимости
 
 ![alt tag](https://camo.githubusercontent.com/d4d0378438eebbdfdf98948d518a47cb34bd241b3c836aaae47255a64f2c3bbe/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f507974686f6e2d332e372532422d627269676874677265656e)
@@ -46,5 +50,9 @@ python3 bigbro.py -t manual -k start.kml
 Скачайте и установите ngrok https://ngrok.com/download
 
   Далее запустите ngrok в сторонем окне командой sudo ./ngrok http 8080
+  
+  ---
+  
+  Более новая версия уже вход в framework osintsan ( https://github.com/Bafomet666/OSINT-SAN )
 
 Удачного деанона друзья...
