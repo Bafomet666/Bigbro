@@ -35,7 +35,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
  ./install.sh
 
-python3 bigbro.py -t manual -k start.kml
+python3 startbb.py
 
 Специально для termux, если вы не можете установить ngrok нормально, вот вам быстрая установка без заморочек. https://github.com/Bafomet666/Fast-ngrok
 
