@@ -1,11 +1,11 @@
 # Big Bro 5.0
-## Это OSINT инструмент, для поиска людей, перешедших по ссылке, радиус разброса местоположения 1-10 метров, зависит от расположения человека.
+## Это OSINT инструмент, для поиска людей, перешедших по ссылке, радиус разброса местоположения 1-10 метров, зависит от расположения обьекта.
 
  Обновил 28 февраля, 2020г
  
 ![alt tag](https://github.com/Bafomet666/screen/blob/main/Big%20Bro%20logo.png)​
 
-Сделано для https://t.me/hacknocrime
+Сделано для https://t.me/hacknocrime и https://t.me/osint_san_framework
 
 ---
 
@@ -55,6 +55,6 @@ git clone https://github.com/Bafomet666/Bigbro
 NGROK 
   ---
   
-  Более новая версия уже вход в framework osintsan ( https://github.com/Bafomet666/OSINT-SAN )
+  Более новая версия уже входит в framework osintsan ( https://github.com/Bafomet666/OSINT-SAN )
 
 Удачного деанона друзья...
