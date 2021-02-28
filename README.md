@@ -3,7 +3,7 @@
 
  Обновил 18 декабря, 2020г
  
-![alt tag](https://github.com/Bafomet666/screen/blob/main/6.5.png)​
+![alt tag](https://github.com/Bafomet666/screen/blob/main/Big%20Bro%20logo.png)​
 
 Сделано для https://t.me/hacknocrime
 
