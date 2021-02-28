@@ -1,7 +1,7 @@
 # Big Bro 5.0
 ## Это OSINT инструмент, для поиска людей, перешедших по ссылке, радиус разброса местоположения 1-10 метров, зависит от расположения человека.
 
- Обновил 18 декабря, 2020г
+ Обновил 28 февраля, 2020г
  
 ![alt tag](https://github.com/Bafomet666/screen/blob/main/Big%20Bro%20logo.png)​
 
@@ -9,9 +9,11 @@
 
 ---
 
-# Установка
+## Адаптация под платформы:
 
-## Kali Linux * Parrot OS
+Kali Linux * Parrot * Termux * Arch linux.
+
+## Install
 
 git clone https://github.com/Bafomet666/Bigbro
 
@@ -19,13 +21,13 @@ git clone https://github.com/Bafomet666/Bigbro
 
   cd /Bigbro-main
 
-  sudo python3 bigbro.py -t manual -k start.kml
+  Запустить: sudo python3 bigbro.py -t manual -k start.kml
   
-  ngrok запусти еще в соседнем окне
+  Запустить: ngrok, sudo ./ngrok http 8080
 
-## Termux.
+## Install termux.
 
-git clone https://github.com/Bafomet666/Bigbro
+  git clone https://github.com/Bafomet666/Bigbro
 
   Далее вам нужно распоковать нужную версию.
 
@@ -33,9 +35,9 @@ git clone https://github.com/Bafomet666/Bigbro
 
   chmod 777 termux_install.sh
 
- ./install.sh
+  /install.sh
 
-python3 startbb.py
+  python3 startbb.py
 
 Специально для termux, если вы не можете установить ngrok нормально, вот вам быстрая установка без заморочек. https://github.com/Bafomet666/Fast-ngrok
 
