@@ -33,9 +33,9 @@ git clone https://github.com/Bafomet666/Bigbro
 
   cd /Bigbro-main
 
-  chmod 777 termux_install.sh
+  chmod +x install.sh
 
-  /install.sh
+  ./install.sh
 
   python3 startbb.py
 
