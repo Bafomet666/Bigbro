@@ -29,8 +29,6 @@ git clone https://github.com/Bafomet666/Bigbro
 
   git clone https://github.com/Bafomet666/Bigbro
 
-  Далее вам нужно распоковать нужную версию.
-
   cd /Bigbro
 
   chmod +x install.sh
