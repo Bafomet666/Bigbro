@@ -57,6 +57,7 @@ os.system("cd banner;python2 banner.py")
 
 def ver_check():
 	print(G + '[ + ]' + C + ' Проверка обновлений.....', end='')
+        print('\n' + R + ' [ + ]' + C + ' Бесплатная премиум версия: \n' + W + ' \n https://t.me/osint_san_framework')
 
 def tunnel_select():
 	if tunnel_mode == None:
