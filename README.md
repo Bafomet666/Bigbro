@@ -21,7 +21,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
   cd /Bigbro-main
 
-  Запустить: sudo python3 bigbro.py -t manual -k start.kml
+  Запустить: sudo python3 startbro.py
   
   Запустить: ngrok, sudo ./ngrok http 8080
 
