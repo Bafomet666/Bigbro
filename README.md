@@ -23,7 +23,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
   Запустить: sudo python3 startbro.py
   
-  Запустить: ngrok, sudo ./ngrok http 8080
+  Запустить ngrok: sudo ./ngrok http 8080
 
 ## Install termux.
 
