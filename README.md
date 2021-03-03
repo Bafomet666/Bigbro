@@ -19,7 +19,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
   Далее вам нужно распоковать нужную версию.
 
-  cd /Bigbro-main
+  cd /Bigbro
 
   Запустить: sudo python3 startbro.py
   
@@ -31,7 +31,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
   Далее вам нужно распоковать нужную версию.
 
-  cd /Bigbro-main
+  cd /Bigbro
 
   chmod +x install.sh
 
