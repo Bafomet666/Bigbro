@@ -15,14 +15,18 @@ def delay_print(s):
         sys.stdout.flush()
         time.sleep(0.001)
 delay_print
-delay_print (""+B+" \n")
-delay_print (""+B+"  ______          ______               "+B+" db      db  "+G+" Dev Bafomet\n")
-delay_print (""+B+" | ___ (_)        | ___ \              "+R+"  db    db   "+G+" Github "+R+" https://github.com/Bafomet666\n")
-delay_print (""+B+" | |_/ /_  __ _   | |_/ /_ __ ___      "+R+"  `8b  d8    "+G+" Made for educational purposes only\n")
-delay_print (""+B+" | ___ \ |/ _` |  | ___ \ '__/ _ \     "+R+"   `8bd8'    "+G+" Use only as a demonstration.\n")
-delay_print (""+B+" | |_/ / | (_| |  | |_/ / | | (_) |    "+R+"   .dPYb.    "+G+" Telegram "+R+" https://t.me/hacknocrime\n")
-delay_print (""+B+" \____/|_|\__, |  \____/|_|  \___/     "+R+"  .8P  Y8.   "+G+" Premium "+R+"  https://t.me/osint_san_framework\n")
-delay_print (""+B+"           __/ |                       "+R+"  db    db \n")
-delay_print (""+B+"           |___/                       "+B+" db      db \n")
-print                                                    
-                                                     
+delay_print (""+B+"                                                                                                                                                 \n") 
+delay_print (""+B+"  _______   __                  _______                             __  __    __                "+G+" Dev Bafomet                                \n")
+delay_print (""+B+" |       \ |  \                |       \                           |  \|  \  |  \               "+G+" Github "+R+" https://github.com/Bafomet666 \n")
+delay_print (""+B+" | $$$$$$$\ \$$  ______        | $$$$$$$\  ______    ______        | $$ \$$ _| $$_     ______   "+G+" Made for educational purposes only         \n")
+delay_print (""+B+" | $$__/ $$|  \ /      \       | $$__/ $$ /      \  /      \       | $$|  \|   $$ \   /      \  "+G+" Use only as a demonstration.               \n")
+delay_print (""+B+" | $$    $$| $$|  $$$$$$\      | $$    $$|  $$$$$$\|  $$$$$$\      | $$| $$ \$$$$$$  |  $$$$$$\ "+G+" Telegram "+R+" https://t.me/hacknocrime    \n")
+delay_print (""+B+" | $$$$$$$\| $$| $$  | $$      | $$$$$$$\| $$   \$$| $$  | $$      | $$| $$  | $$ __ | $$    $$ "+R+" https://t.me/osint_san_framework          \n")
+delay_print (""+B+" | $$__/ $$| $$| $$__| $$      | $$__/ $$| $$      | $$__/ $$      | $$| $$  | $$|  \| $$$$$$$$ \n")
+delay_print (""+B+" | $$    $$| $$ \$$    $$      | $$    $$| $$       \$$    $$      | $$| $$   \$$  $$ \$$     \ \n")
+delay_print (""+B+"  \$$$$$$$  \$$ _\$$$$$$$       \$$$$$$$  \$$        \$$$$$$        \$$ \$$    \$$$$   \$$$$$$$ \n")
+delay_print (""+B+"               |  \__| $$                                                                       \n")
+delay_print (""+B+"                \$$    $$                                                                       \n")
+delay_print (""+B+"                 \$$$$$$                                                                        \n")
+print                   
+                     
