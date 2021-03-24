@@ -53,6 +53,6 @@ git clone https://github.com/Bafomet666/Bigbro
 NGROK 
   ---
   
-  Более новая версия уже входит в framework osintsan ( https://github.com/Bafomet666/OSINT-SAN )
+  Более новая версия Big BRO уже входит в framework osintsan ( https://github.com/Bafomet666/OSINT-SAN )
 
 Удачного деанона друзья...
