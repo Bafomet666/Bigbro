@@ -17,7 +17,7 @@ Kali Linux * Parrot * Termux * Arch linux.
 
 git clone https://github.com/Bafomet666/Bigbro
 
-  Далее вам нужно распоковать нужную версию.
+  Далее вам нужно распаковать нужную версию.
 
   cd /Bigbro
 
