@@ -21,21 +21,7 @@ git clone https://github.com/Bafomet666/Bigbro
 
   cd /Bigbro
 
-  Запустить: sudo python3 startbro.py
-  
-  Запустить ngrok: sudo ./ngrok http 8080
-
-## Install termux.
-
-  git clone https://github.com/Bafomet666/Bigbro
-
-  cd /Bigbro
-
-  chmod +x install.sh
-
-  ./install.sh
-
-  python3 startbb.py
+  Запустить: sudo python3 brother.py
 
 ---
   Скачайте и установите ngrok https://ngrok.com/download
