@@ -1,0 +1,45 @@
+[Sat Jan  8 15:20:36 2022] Failed to listen on localhost:6587 (reason: Address already in[Sat Jan  8 15:20:47 2022] [::1]:39210 Accepted
+[Sat Jan  8 15:20:47 2022] [::1]:39210 [200]: (null) /
+[Sat Jan  8 15:20:47 2022] [::1]:39210 Closing
+[Sat Jan  8 15:20:48 2022] [::1]:39212 Accepted
+[Sat Jan  8 15:20:48 2022] [::1]:39212 [200]: (null) /client.min.js
+[Sat Jan  8 15:20:48 2022] [::1]:39214 Accepted
+[Sat Jan  8 15:20:48 2022] [::1]:39212 Closing
+[Sat Jan  8 15:20:48 2022] [::1]:39214 [200]: (null) /js/_app.js
+[Sat Jan  8 15:20:48 2022] [::1]:39214 Closing
+[Sat Jan  8 15:20:48 2022] [::1]:39216 Accepted
+[Sat Jan  8 15:20:48 2022] [::1]:39216 [200]: (null) /loc.js
+[Sat Jan  8 15:20:48 2022] [::1]:39216 Closing
+[Sat Jan  8 15:20:50 2022] [::1]:39218 Accepted
+[Sat Jan  8 15:20:50 2022] [::1]:39218 [404]: (null) /favicon.ico - No such file or directory
+[Sat Jan  8 15:20:50 2022] [::1]:39218 Closing
+[Sat Jan  8 15:20:53 2022] [::1]:39222 Accepted
+[Sat Jan  8 15:20:53 2022] [::1]:39222 [200]: (null) /redirect_link
+[Sat Jan  8 15:20:53 2022] [::1]:39222 Closing
+[Sat Jan  8 15:20:53 2022] [::1]:39224 Accepted
+[Sat Jan  8 15:20:53 2022] [::1]:39224 [200]: (null) /client.min.js
+[Sat Jan  8 15:20:53 2022] [::1]:39224 Closing
+[Sat Jan  8 15:20:53 2022] [::1]:39226 Accepted
+[Sat Jan  8 15:20:53 2022] [::1]:39226 [200]: (null) /loc.js
+[Sat Jan  8 15:20:53 2022] [::1]:39226 Closing
+[Sat Jan  8 15:20:53 2022] [::1]:39228 Accepted
+[Sat Jan  8 15:20:53 2022] [::1]:39228 [200]: (null) /js/_app.js
+[Sat Jan  8 15:20:53 2022] [::1]:39228 Closing
+[Sat Jan  8 15:20:56 2022] [::1]:39230 Accepted
+[Sat Jan  8 15:20:57 2022] [::1]:39230 [200]: POST /upload.php
+[Sat Jan  8 15:20:57 2022] [::1]:39230 Closing
+[Sat Jan  8 15:21:01 2022] [::1]:39232 Accepted
+[Sat Jan  8 15:21:02 2022] [::1]:39232 [200]: POST /upload.php
+[Sat Jan  8 15:21:02 2022] [::1]:39232 Closing
+[Sat Jan  8 15:21:07 2022] [::1]:39234 Accepted
+[Sat Jan  8 15:21:08 2022] [::1]:39234 [200]: POST /upload.php
+[Sat Jan  8 15:21:08 2022] [::1]:39234 Closing
+[Sat Jan  8 15:21:12 2022] [::1]:39236 Accepted
+[Sat Jan  8 15:21:17 2022] [::1]:39236 [200]: POST /upload.php
+[Sat Jan  8 15:21:17 2022] [::1]:39236 Closing
+[Sat Jan  8 15:21:19 2022] [::1]:39238 Accepted
+[Sat Jan  8 15:21:20 2022] [::1]:39238 [200]: POST /upload.php
+[Sat Jan  8 15:21:20 2022] [::1]:39238 Closing
+[Sat Jan  8 15:21:25 2022] [::1]:39240 Accepted
+[Sat Jan  8 15:21:33 2022] [::1]:39240 Invalid request (Unexpected EOF)
+[Sat Jan  8 15:21:33 2022] [::1]:39240 Closing

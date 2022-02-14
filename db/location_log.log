@@ -1,0 +1,37 @@
+[Mon Feb 14 07:36:39 2022] PHP 7.4.25 Development Server (http://localhost:8767) started
+[Mon Feb 14 07:36:43 2022] [::1]:53536 Accepted
+[Mon Feb 14 07:36:43 2022] [::1]:53536 [200]: (null) /
+[Mon Feb 14 07:36:43 2022] [::1]:53536 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53540 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53540 [200]: (null) /css/main.css
+[Mon Feb 14 07:36:44 2022] [::1]:53542 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53540 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53542 [200]: (null) /js/modernizr.js
+[Mon Feb 14 07:36:44 2022] [::1]:53542 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53544 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53544 [200]: (null) /css/vendor.css
+[Mon Feb 14 07:36:44 2022] [::1]:53544 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53546 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53546 [200]: (null) /css/base.css
+[Mon Feb 14 07:36:44 2022] [::1]:53546 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53548 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53548 [200]: (null) /js/jquery-1.11.3.min.js
+[Mon Feb 14 07:36:44 2022] [::1]:53548 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53550 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53550 [200]: (null) /js/jquery-migrate-1.2.1.min.js
+[Mon Feb 14 07:36:44 2022] [::1]:53550 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53552 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53552 [200]: (null) /js/plugins.js
+[Mon Feb 14 07:36:44 2022] [::1]:53554 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53552 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53554 [200]: (null) /loc.js
+[Mon Feb 14 07:36:44 2022] [::1]:53554 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53556 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53556 [200]: (null) /location.js
+[Mon Feb 14 07:36:44 2022] [::1]:53556 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53558 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53558 [200]: (null) /js/main.js
+[Mon Feb 14 07:36:44 2022] [::1]:53560 Accepted
+[Mon Feb 14 07:36:44 2022] [::1]:53558 Closing
+[Mon Feb 14 07:36:44 2022] [::1]:53560 [200]: (null) /client.min.js
+[Mon Feb 14 07:36:44 2022] [::1]:53560 Closing
