@@ -5,7 +5,7 @@
  
 ![alt tag](https://github.com/Bafomet666/screen/blob/main/Big%20Bro%20logo.png)​
 
-Сделано для https://t.me/hacknocrime и https://t.me/osint_san_framework
+Сделано для https://t.me/osint_san_framework
 
 ---
 
