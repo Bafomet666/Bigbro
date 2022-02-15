@@ -20,6 +20,8 @@ git clone https://github.com/Bafomet666/Bigbro
   Далее вам нужно распаковать нужную версию.
 
   cd /Bigbro
+  
+  pip3 install pyngrok
 
   Запустить: sudo python3 brother.py
 
