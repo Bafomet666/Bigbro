@@ -14,4 +14,4 @@ def kill():
     print(f' {COLORS.FIOL}Благодарим вас за использование !!!{COLORS.WHSL} Вы прекрасны.\n')
     time.sleep(0.5)
     subprocess.call('pkill -9 php', shell=True)
-    subprocess.call('pkill -9 -f brother.py', shell=True)
+    subprocess.call('pkill -9 -f start.py', shell=True)

@@ -5,6 +5,58 @@ page_23 = f'''
 
  {COLORS.WHSL}Новая архетиктура x0com, big brother 13.0
  
+ {COLORS.WHSL}Скачать полную версию framework: 
+ {COLORS.REDL}https://t.me/osint_san_framework
+
+ {COLORS.GNSL}[ {COLORS.REDL}1 {COLORS.GNSL}]  {COLORS.WHSL} Nearyou
+ {COLORS.GNSL}[ {COLORS.REDL}2 {COLORS.GNSL}]  {COLORS.WHSL} Погода
+ {COLORS.GNSL}[ {COLORS.REDL}3 {COLORS.GNSL}]  {COLORS.WHSL} Hostel
+ {COLORS.GNSL}[ {COLORS.REDL}4 {COLORS.GNSL}]  {COLORS.WHSL} Авиабилеты
+ {COLORS.GNSL}[ {COLORS.REDL}5 {COLORS.GNSL}]  {COLORS.WHSL} YouTube
+ {COLORS.GNSL}[ {COLORS.REDL}6 {COLORS.GNSL}]  {COLORS.WHSL} Почта РФ
+ {COLORS.GNSL}[ {COLORS.REDL}7 {COLORS.GNSL}]  {COLORS.WHSL} Telegram
+ {COLORS.GNSL}[ {COLORS.REDL}8 {COLORS.GNSL}]  {COLORS.WHSL} Проститундер
+ {COLORS.GNSL}[ {COLORS.REDL}9 {COLORS.GNSL}]  {COLORS.WHSL} Fast Jobs
+ {COLORS.GNSL}[ {COLORS.REDL}10 {COLORS.GNSL}] {COLORS.WHSL} Bitcoin
+ {COLORS.GNSL}[ {COLORS.REDL}11 {COLORS.GNSL}]  {COLORS.WHSL}Блогер рядом
+ {COLORS.GNSL}[ {COLORS.REDL}12 {COLORS.GNSL}]  {COLORS.WHSL}Курсы Skillbox
+ {COLORS.GNSL}[ {COLORS.REDL}13 {COLORS.GNSL}]  {COLORS.WHSL}Лучшее свидание
+ {COLORS.GNSL}[ {COLORS.REDL}14 {COLORS.GNSL}]  {COLORS.WHSL}Ближ фотограф
+ {COLORS.GNSL}[ {COLORS.REDL}15 {COLORS.GNSL}]  {COLORS.WHSL}Premium ngrok
+ {COLORS.GNSL}[ {COLORS.REDL}16 {COLORS.GNSL}]  {COLORS.WHSL}Знакомства, секс
+ {COLORS.GNSL}[ {COLORS.REDL}17 {COLORS.GNSL}]  {COLORS.WHSL}Флирт в регионе 
+ {COLORS.GNSL}[ {COLORS.REDL}18 {COLORS.GNSL}]  {COLORS.WHSL}Туризм, отдых
+ {COLORS.GNSL}[ {COLORS.REDL}19 {COLORS.GNSL}]  {COLORS.WHSL}Ближайший ресторан
+ {COLORS.GNSL}[ {COLORS.REDL}20 {COLORS.GNSL}]  {COLORS.WHSL}Игра Тайга
+ {COLORS.GNSL}[ {COLORS.REDL}21 {COLORS.GNSL}]  {COLORS.WHSL}Друг вокруг
+ {COLORS.GNSL}[ {COLORS.REDL}22 {COLORS.GNSL}]  {COLORS.WHSL}Биржа bitcoin
+ {COLORS.GNSL}[ {COLORS.REDL}23 {COLORS.GNSL}]  {COLORS.WHSL}Каршеринг авто
+ {COLORS.GNSL}[ {COLORS.REDL}24 {COLORS.GNSL}]  {COLORS.WHSL}Portugal друзья
+ 
+ {COLORS.GNSL}[ {COLORS.REDL}0 {COLORS.GNSL}] {COLORS.WHSL} Покинуть
+ {COLORS.REDL}----------------------------------------
+'''
+
+page_20 = f'''{COLORS.FIOL}
+    
+    Выберите версию для запуска
+
+
+    ( 1 ) Termux
+
+    ( 2 ) Desktop
+    
+    ( 3 ) Идти нахуй из инструмента
+    
+    ( 4 ) Получить полную версию
+
+'''
+
+
+page_25 = f'''
+
+ {COLORS.WHSL}Новая архетиктура x0com, big brother 13.0
+ 
  {COLORS.WHSL}Скачать полную версию framework: {COLORS.REDL}https://t.me/osint_san_framework
 
  {COLORS.GNSL}[ {COLORS.REDL}1 {COLORS.GNSL}]  {COLORS.WHSL}Nearyou         {COLORS.GNSL}[ {COLORS.REDL}11 {COLORS.GNSL}]  {COLORS.WHSL}Блогер рядом       {COLORS.GNSL}[ {COLORS.REDL}21 {COLORS.GNSL}]  {COLORS.WHSL}Друг вокруг       {COLORS.GNSL}[ {COLORS.REDL}31 {COLORS.GNSL}]  {COLORS.WHSL}Свободный
