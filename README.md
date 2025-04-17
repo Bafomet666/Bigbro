@@ -29,10 +29,6 @@ Kali Linux * Parrot * Termux * Arch linux.
   
   Выбор платформы для запуска.
 
----
-  Скачайте и установите ngrok https://ngrok.com/download
-
-  ngrok под termux: https://github.com/Bafomet666/Fast-ngrok
 
 ---
 
@@ -42,9 +38,3 @@ Kali Linux * Parrot * Termux * Arch linux.
 
 ![alt tag](https://camo.githubusercontent.com/26043b6db7e2aee509448570c835702e9cd39397b53b18ac86b2b11090d08c26/68747470733a2f2f63646e2e737667706f726e2e636f6d2f6c6f676f732f707974686f6e2e737667)
 
-NGROK 
-  ---
-  
-  Более новая версия Big BRO уже входит в framework osintsan ( https://github.com/Bafomet666/OSINT-SAN )
-
-Удачного деанона друзья...
